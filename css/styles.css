@@ -1,0 +1,409 @@
+.clear{
+       clear: both;
+      }
+body{
+     width: 75%;
+     margin:auto;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+   }
+nav h1{
+       color: #717171;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 30px;
+      }
+nav .onglets{
+             margin-top: 3px;
+             margin-left: 300px;
+            }
+nav .onglets a{
+               text-decoration: none;
+               color: #000;
+               margin-right: 10px;
+               border-bottom: 1px solid #000;
+               padding-bottom: 5px;
+              }
+nav .onglets a:hover{
+                     background-color: black;
+                     color: white;
+                    }              
+header{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background: url(../images/blockparty.jpg);
+       background-size: cover;
+       padding: 60px;
+      }
+header h1{
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 50px;
+          text-align: center;
+         }      
+/* images dans la page accueil */
+#composition{
+             width: 600px;
+             border-radius: 25px;
+             float: left;
+             margin-top: 250px;
+             margin-left: 35px;            
+             margin-right: 0px;
+            }
+
+#composition2{
+              width: 600px;
+              border-radius: 25px;
+              margin-top: 250px;
+              margin-left: 80px;
+              height: 380px; 
+              }
+#composition3{
+             margin-left: -600px;
+             width: 600px;
+             border-radius: 25px;
+             margin-top: 65px;
+             float: left;
+             height: 600px;
+            }
+#composition4{
+              width: 610px;
+              margin-left: 70px;
+              border-radius: 25px;
+              margin-top: 65px;
+              height: 400px;
+              }
+/* Fin des images dans la page accueil */
+/* Debut du texte dans la page accueil */
+#texte{
+       margin-left: 685px;
+       margin-top: 50px;
+       font-size: 15px;
+       }
+/* Fin du texte dans la page accueil */
+/* Debut du footer */
+
+footer{
+       background-color: lightgray;
+       height: 230px;
+      }
+footer ul li{
+             list-style-type: none;
+             display: inline;
+             font-weight: bold;
+             font-size: 20px;      
+             font-family: Arial, Helvetica, sans-serif;
+
+            }
+footer ul li a{
+               text-decoration: none;
+               color: black;
+               margin-left: 150px;
+               margin: 100px;
+               margin-bottom: 25px;
+               
+              }
+footer ul li a:hover{
+                     background-color: gray;
+                     color: white;
+                    }
+#compositionx{
+               width: 100px;
+               margin-top: 10px;
+               margin-left: 100px;
+               float: left;
+              }
+#composition27{
+               width: 30px;
+               float: left;
+               margin-left: 750px;
+               margin-right: 10px;
+               margin-top: 100px;
+              }
+#composition28{
+               width: 44px;
+               float: left;
+               margin-right: 10px;
+               margin-top: 100px;
+              }
+#composition29{
+               width: 30px;
+               margin-top: 100px;
+               
+               
+              }
+#true{
+      margin-top: 40px;
+      margin-left: 330px;
+      font-weight: bold;
+     }
+/* Fin du footer */
+/* Debut des images dans la page histoire */
+#composition5{
+              width: 800px;
+              margin-top: 120px;
+             }
+#composition6{
+              width: 800px;
+              margin-left: 500px;
+              margin-top: 20px;
+             }
+#composition7{
+              width: 650px;
+              margin-top: 20px;
+              float: left;
+              margin-bottom: 20px;
+             }
+/* Fin des images dans la page histoire */
+/* Debut du texte dans la page histoire */
+#texte2{
+        font-size: 15px;
+        margin-left: 800px;
+        padding: 50px;
+        margin-top: 100px;
+       }  
+#titre{
+     font-weight: bold;
+     font-size: 20px;
+     }
+/* Fin du texte dans la page histoire */
+/* Debut des images dans la page modes */
+#composition8{
+              width: 600px;
+              margin-top: 50px;
+             }
+#composition9{
+              width: 600px;
+             }
+#composition10{
+               width: 600px;
+              }
+#composition11{
+               width: 600px;
+               float: left;
+               margin-right: 20px;
+              }
+/* Fin des images dans la page modes */
+/* Debut du texte dans la page modes */
+#texte3{
+        font-size: 15px;
+        margin-top: -600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 600px;
+       }
+#titre2{
+       font-weight: bold;
+       font-size: 20px;
+       margin-right: 320px;
+       }
+/* Fin du texte dans la page modes */
+/* Debut de la video locale dans la page modes */
+#video1{
+        margin-left: 700px;
+        margin-top: 55px;
+       }
+/* Fin de la video locale dans la page modes */
+/* Debut des images dans la page pionniers */
+#composition12{
+               float: left;
+               width: 500pxs;
+               margin-left: 45px;
+               margin-top: 50px;
+               border-radius: 25px;
+              }
+#composition13{
+               width: 600px;
+               margin-left: 70px;
+               margin-top: 50px;
+               border-radius: 25px;
+              }
+/* Fin des images dans la page pionniers */
+/* Debut de la video streaming dans la page pionniers */
+iframe{
+       margin-left: 400px;
+       margin-top: 70px;
+      }
+/* Fin de la video streaming dans la page pionniers */
+/* Debut du texte dans la page pionniers */
+#texte4{
+        text-align: justify;
+        margin-left: 370px;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+       }
+#titre3{
+       font-weight: bold;
+       font-size: 20px;
+       }
+/* Fin du texte dans la page pionniers */
+/* Debut des images dans la page impact */
+#composition14{
+               width: 550px;
+               margin-left: 750px;
+              }
+#composition15{
+               width: 600px;
+               margin-top: -70px;
+               float: left;
+              }
+#composition16{
+               width: 600px;
+               margin-left: 700px;
+               margin-top: -100px;
+               float: left;
+               margin-bottom: 20px;
+              }
+/* Fin des images dans la page impact */
+/* Debut du texte dans la page impact */
+#texte5{
+        margin-left: 25px;
+        margin-top: -260px;
+       }
+#titre4{
+       font-weight: bold;
+       font-size: 20px;
+       }
+/* Fin du texte dans la page impact */
+/* Debut de audio local dans la page impact */
+#audio1{
+        margin-left: -13px;
+        background-color: black;
+        margin-top: 5px;
+       }
+/* Fin de audio local dans la page impact */
+/* Debut de l'image dans la page plan */
+#composition17{
+               width: 600px;
+               margin-top: 80px;
+               margin-left: 20px;
+               float: left; 
+               margin-bottom: 40px;
+              }
+/* Fin de l'image dans la page plan */
+/* Debut du texte dans la page plan */
+.compact{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-decoration: none;
+         margin: auto;
+         font-size: 30px;
+         font-weight: bold;
+         color: black;
+         margin-top: 30px;
+         }
+ .compact:hover{
+                background-color: lightgray;
+                color: white;
+               }        
+/* Fin du texte dans la page plan */
+/* Debut de l'image dans la page faq */
+#composition18{
+               width: 550px;
+               margin-top: 30px;
+               float: left;
+               margin-bottom: 15px;
+               border-radius: 20px;
+              }
+/* Fin de l'image dans la page faq */
+/* Debut du texte dans la page faq */
+.done{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: lightgray;
+      color: #525143;       
+      cursor: pointer;
+      padding: 14px;
+      text-align: left;
+      border: none;
+      transition: 0.10s;    
+      font-size: 1em;
+      margin-top: 25px;
+      margin-left: 45px;
+     }
+.done:hover{
+            background-color: lightgray;
+           }
+.panel{
+       padding: 0 18px;
+       display: none;
+       overflow: hidden;
+
+      }
+.panel p{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 1em;
+         text-align: left;
+        }
+/* Fin du texte dans la page faq */
+/* Debut des liensimages dans la page sites */
+#composition19{
+               width: 200px;
+               margin-left: 550px;
+               margin-top: 25px;
+              }
+#composition20{
+               width: 200px;
+               margin-left: 550px;
+               margin-top: 35px;
+              }
+#composition21{
+               width: 200px;
+               margin-left: 550px;
+               margin-top: 35px;
+              }
+#composition22{
+               width: 200px;
+               margin-left: 550px;
+               margin-top: 35px;
+              }
+#composition23{
+               width: 200px;
+               margin-left: 550px;
+               margin-top: 35px;
+              }
+/* Fin des liensimages dans la page sites */
+/* Debut du texte dans la page propos */
+#titre5{
+        font-weight: bold;
+        font-size: 20px;
+       }
+#texte6{
+        margin-top: 100px;
+        margin-left: 25px;
+        
+       }
+/* Fin du texte dans la page propos */
+/* Debut des images dans la page propos */
+#composition24{
+               width: 600px;
+               margin-left: 735px;
+               margin-top: -150px;
+               border-radius: 15px;
+               
+              }
+#composition25{
+               width: 600px;
+               margin-left: 735px;
+               margin-top: 35px;
+               border-radius: 15px;
+              }
+#composition26{
+               width: 600px;
+               margin-left: 735px;
+               margin-top: 35px;
+               border-radius: 15px;
+              }
+      @media screen and (max-width:680px){
+              nav .onglets{
+                  margin-left: 0px;
+                  margin-bottom: 20px;
+                          } 
+             } 

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"content="Le hip-hop est une culture emblématique provenant des États-Unis. Elle a émergé des les années 70.">
+    <meta name="keywords"content="hip-hop,hip hop,culture,mouvement,rap,graffiti,breakdance,djing,b-boying, human beatbox,turntablism,pionniers,impact social,expression,modes,histoire">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+        <h1>La culture hip-hop</h1>
+        <div class="onglets">
+          <a href="../index.html">Accueil</a>
+          <a href="histoire.html">Histoire</a>
+          <a href="modes.html">Modes d'expression</a>
+          <a href="pionniers.html">Pionniers</a>
+          <a href="impact.html">Impact social</a>
+  
+        </div>
+     </nav>
+     <header>
+        <h1>La culture hip-hop</h1>
+     </header> 
+     <div>
+       <img id="composition18" src="../images/faqgraffiti.jpg" alt="faq">
+     </div>
+     <button class="done">Pourquoi certaines chansons hip-hop sont si violentes &#63;</button>
+     <div class="panel">
+        <p>
+          Ces chansons sont le reflet de la réalité de certains gens qui vivent dans des <br>
+          milieux pauvres empreints de violences.
+        </p>
+     </div>
+     <button class="done">Est-ce que les femmes ont leur place dans le monde du hip-hop &#63;</button>
+     <div class="panel" >
+       <p>
+        Malgré qu’elles soient sous-représentées, il y a de nombreuses femmes hip-hop qui <br>
+        ont laissé leurs marques, comme MC Lyte, Lauryn Hill et Lil’Kim.
+       </p>
+     </div>
+    <button class="done">Comment se porte la scène hip-hop québécoise &#63;</button>
+    <div class="panel">
+      <p>
+        Le rap a pris sa place dans la culture populaire au Québec. On peut le constater <br>
+        avec l’édition 2021 du Gala de l’ADISQ, le prix du meilleur interprète masculin de <br>
+        l’année a été remis au rappeur Fouki.
+      </p>
+    </div>
+    
+    <button class="done" >Quels sont les genres musicaux qui ont influencé l’émergence du hip-hop &#63;</button>
+    <div class="panel">
+      <p>
+        La musique hip-hop est grandement influencée par le soul et le funk.
+      </p>
+    </div>
+    <button class="done">Est-ce que le hip-hop était une alternative à la violence qui existait entre les gangs de rue &#63;</button>
+    <div class="panel">
+      <p>
+        Pour pallier à la criminalité dans leur quartier, des gens utilisent ce genre pour <br>
+        exprimer leurs frustrations au lieu de recourir aux armes.
+      </p>
+    </div>
+    <script>
+      var acc = document.getElementsByClassName("done");
+      var i;
+      for (i = 0; i < acc.length; i++) 
+          {
+           acc[i].addEventListener("click", function() 
+                {
+           this.classList.toggle("active");
+           var panel = this.nextElementSibling;
+           if (panel.style.display === "block") {
+                                                 panel.style.display = "none";
+                                                } 
+           else {
+                 panel.style.display = "block";
+                }
+          });
+               }
+</script>
+      <footer class="clear">
+        <ul>
+           <li><a href="../html/plan.html">Plan du site</a></li>
+           <li><a href="../html/sites.html">Sites d'intérêts</a></li>
+           <li><a href="../html/faq.html">FAQ</a></li>
+           <li><a href="../html/propos.html">À propos</a></li>
+        </ul>
+        <p><a href="mailto:tamara.mathieu2022@gmail.com"><img id="compositionx" src="../images/contacteznous2.jpg" alt="contact"></a></p> 
+        
+        <div>
+           <a href="https://www.facebook.com/"download target="blank">
+             <img id="composition27" src="../images/facebook.jpg" alt="facebook"></a>
+        </div>
+        <div>
+           <a href="https://www.instagram.com/?hl=fr"download target="blank">
+             <img id="composition28" src="../images/instagram.jpg" alt="instagram"></a>
+        </div>
+        <div>
+           <a href="https://twitter.com/?lang=fr"download target="blank">
+             <img id="composition29" src="../images/twitter.jpg" alt="twitter"></a>
+        </div>
+        <aside>
+           <p id="true" >Ce site est supporté par les navigateurs Chrome, Opéra, Safari, Edge et FireFox.</p>
+        </aside>
+        
+    </footer>
+</body>
+</html>
